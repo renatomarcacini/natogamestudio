@@ -13,8 +13,13 @@ body {
     border-radius: 5px;
 }
 
+.box ul {
+    margin: 0;
+    padding-left: 15px;
+}
+
 .box li {
-    font-size: 15px !important;
+    font-size: 16px !important;
 }
 
 .box a {
@@ -37,6 +42,7 @@ h4 {
 }
 
 
+
 .progress {
     background-color: #cc17182b !important;
 }
@@ -50,32 +56,28 @@ hr {
 }
 
 .nav-side-bar{
-    position:fixed;
-    top: 0;
+    /* position:fixed; */
+    /* top: 0; */
     width: 100%;
     text-align: center;
-    background-color: #191C24;
+    background-color: #000000;
     z-index: 99;
-    border-bottom: 2px solid black;
 
 }
 
 .nav-side-bar a{
-    background-color: #191C24;
-
+    background-color: #000000;
+    font-size: 18px;
     display: inline-block;
-    width: 150px;
+    /* width: 150px; */
     padding: 12px;
-    border: 1px solid #191C24;
-    color: #CC1718;
+    color: #ffffff;
     text-align: center;
     margin: 0 5px;
 }
 
 .nav-side-bar a:hover{
-    background-color: #CC1718;
-    color: white;
-    border: 1px solid #CC1718;
+    color: rgb(212, 238, 65);
     text-decoration: none;
 }
 
@@ -670,3 +672,10 @@ small {
     margin-right: 5px;
 }
 
+.box-margin{
+    margin-top: 30px;
+}
+
+.link-inactive{
+    color: #4b4b4b !important;
+}
